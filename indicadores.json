@@ -129,7 +129,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -153,7 +153,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -249,7 +249,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -393,7 +393,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -417,7 +417,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -441,7 +441,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -465,7 +465,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -489,7 +489,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -950,7 +950,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -974,7 +974,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1070,7 +1070,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1214,7 +1214,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1238,7 +1238,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1262,7 +1262,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1286,7 +1286,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1310,7 +1310,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1771,7 +1771,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1795,7 +1795,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1891,7 +1891,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2035,7 +2035,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2059,7 +2059,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2083,7 +2083,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2107,7 +2107,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2131,7 +2131,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2592,7 +2592,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2616,7 +2616,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2712,7 +2712,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2856,7 +2856,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2880,7 +2880,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2904,7 +2904,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2928,7 +2928,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2952,7 +2952,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3413,7 +3413,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3437,7 +3437,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3533,7 +3533,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3677,7 +3677,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3701,7 +3701,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3725,7 +3725,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3749,7 +3749,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3773,7 +3773,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4234,7 +4234,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4258,7 +4258,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4354,7 +4354,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4498,7 +4498,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4522,7 +4522,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4546,7 +4546,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4570,7 +4570,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4594,7 +4594,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5055,7 +5055,7 @@
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
           "objetivo": "≤4 días",
-          "sla": "≤4 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5079,7 +5079,7 @@
           "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
           "area": "Compras",
           "objetivo": "≤6 días",
-          "sla": "≤6 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5175,7 +5175,7 @@
           "indicador": "Refacción o material surtido en tiempo a proyectos",
           "area": "Almacén",
           "objetivo": "≤7 días",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5319,7 +5319,7 @@
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤72 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5343,7 +5343,7 @@
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5367,7 +5367,7 @@
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5391,7 +5391,7 @@
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5415,7 +5415,7 @@
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5757,7 +5757,7 @@
         "indicador": "Tiempo de pago a proveedor de crédito desde factura",
         "area": "Proveedores",
         "objetivo": "30 días",
-        "sla": "≤30 días",
+        "sla": "Mensual",
         "unidad": "",
         "valores": {
           "Ene": null,
@@ -5781,7 +5781,7 @@
         "indicador": "Tiempo de pago a proveedor estratégico de crédito desde factura",
         "area": "Proveedores",
         "objetivo": "60 días",
-        "sla": "≤60 días",
+        "sla": "Mensual",
         "unidad": "",
         "valores": {
           "Ene": null,
@@ -6501,7 +6501,7 @@
         "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
         "area": "Administración",
         "objetivo": "30 días",
-        "sla": "≤30 días",
+        "sla": "Mensual",
         "unidad": "",
         "valores": {
           "Ene": null,
