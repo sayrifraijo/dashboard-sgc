@@ -1,17 +1,15 @@
 {
-  "generado": "2026-05-05",
+  "generado": "2026-05-06",
   "proyectos": {
     "PCM": {
       "nombre": "PC Mina",
-      "mes_activo": "Marzo",
-      "anio": "2026",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -32,10 +30,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -56,10 +54,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -82,8 +80,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -106,8 +104,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -130,9 +128,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -152,11 +150,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -179,7 +177,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -203,7 +201,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -224,10 +222,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -248,11 +246,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -272,10 +270,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -299,7 +297,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -323,7 +321,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -346,8 +344,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -370,8 +368,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -392,9 +390,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -418,8 +416,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -442,8 +440,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -466,8 +464,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -490,8 +488,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -512,7 +510,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -536,7 +534,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -560,11 +558,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -584,10 +582,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -608,10 +606,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -632,15 +630,15 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
+            "Ene": 1,
+            "Feb": 0,
+            "Mar": 0,
             "Abr": null,
             "May": null,
             "Jun": null,
@@ -656,11 +654,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -680,11 +678,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -704,11 +702,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -729,9 +727,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -753,10 +751,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -776,10 +774,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -800,10 +798,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -825,16 +823,14 @@
       ]
     },
     "PCT": {
-      "nombre": "PC Trituración",
-      "mes_activo": "Marzo",
-      "anio": "2026",
+      "nombre": "PC Trituraci?n",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -855,10 +851,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -879,10 +875,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -905,8 +901,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -929,8 +925,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -953,9 +949,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -975,11 +971,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1002,7 +998,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1026,7 +1022,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1047,10 +1043,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1071,11 +1067,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1095,10 +1091,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1122,7 +1118,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1146,7 +1142,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -1169,8 +1165,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1193,8 +1189,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1215,9 +1211,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -1241,8 +1237,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1265,8 +1261,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1289,8 +1285,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1313,8 +1309,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1335,7 +1331,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -1359,7 +1355,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -1383,11 +1379,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1407,10 +1403,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1431,10 +1427,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1455,11 +1451,11 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1479,11 +1475,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1503,11 +1499,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1527,11 +1523,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1552,9 +1548,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1576,10 +1572,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1599,10 +1595,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1623,10 +1619,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1649,15 +1645,13 @@
     },
     "AMT": {
       "nombre": "AM Truchas",
-      "mes_activo": "Marzo",
-      "anio": "2026",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1678,10 +1672,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1702,10 +1696,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1728,8 +1722,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1752,8 +1746,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1776,9 +1770,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1798,11 +1792,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1825,7 +1819,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1849,7 +1843,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1870,10 +1864,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1894,11 +1888,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -1918,10 +1912,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1945,7 +1939,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -1969,7 +1963,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -1992,8 +1986,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2016,8 +2010,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2038,9 +2032,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -2064,8 +2058,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2088,8 +2082,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2112,8 +2106,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2136,8 +2130,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2158,7 +2152,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -2182,7 +2176,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -2206,11 +2200,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2230,10 +2224,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2254,10 +2248,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2278,11 +2272,11 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2302,11 +2296,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2326,11 +2320,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2350,11 +2344,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2375,9 +2369,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2399,10 +2393,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2422,10 +2416,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2446,10 +2440,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2471,16 +2465,14 @@
       ]
     },
     "MCL": {
-      "nombre": "MCL",
-      "mes_activo": "Marzo",
-      "anio": "2026",
+      "nombre": "MC Lluvia de Oro",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2501,10 +2493,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2525,10 +2517,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2551,8 +2543,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2575,8 +2567,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2599,9 +2591,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2621,11 +2613,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2648,7 +2640,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2672,7 +2664,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2693,10 +2685,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2717,11 +2709,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -2741,10 +2733,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2768,7 +2760,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2792,7 +2784,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -2815,8 +2807,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2839,8 +2831,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2861,9 +2853,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -2887,8 +2879,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2911,8 +2903,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2935,8 +2927,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2959,8 +2951,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -2981,7 +2973,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -3005,7 +2997,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -3029,11 +3021,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3053,10 +3045,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3077,10 +3069,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3101,11 +3093,11 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3125,11 +3117,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3149,11 +3141,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3173,11 +3165,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3198,9 +3190,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3222,10 +3214,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3245,10 +3237,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3269,10 +3261,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3294,16 +3286,14 @@
       ]
     },
     "PYC": {
-      "nombre": "PYC",
-      "mes_activo": "Marzo",
-      "anio": "2026",
+      "nombre": "PY Colima Armer?as",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3324,10 +3314,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3348,10 +3338,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3374,8 +3364,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3398,8 +3388,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3422,9 +3412,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3444,11 +3434,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3471,7 +3461,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3495,7 +3485,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3516,10 +3506,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3540,11 +3530,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3564,10 +3554,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3591,7 +3581,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3615,7 +3605,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -3638,8 +3628,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3662,8 +3652,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3684,9 +3674,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -3710,8 +3700,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3734,8 +3724,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3758,8 +3748,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3782,8 +3772,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3804,7 +3794,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -3828,7 +3818,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -3852,11 +3842,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3876,10 +3866,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3900,10 +3890,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -3924,11 +3914,11 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3948,11 +3938,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3972,11 +3962,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -3996,11 +3986,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4021,9 +4011,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4045,10 +4035,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4068,10 +4058,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4092,10 +4082,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4117,16 +4107,14 @@
       ]
     },
     "PYE": {
-      "nombre": "PYE",
-      "mes_activo": "Marzo",
-      "anio": "2026",
+      "nombre": "PY Entronques",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4147,10 +4135,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4171,10 +4159,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4197,8 +4185,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4221,8 +4209,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4245,9 +4233,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4267,11 +4255,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4294,7 +4282,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4318,7 +4306,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4339,10 +4327,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4363,11 +4351,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4387,10 +4375,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4414,7 +4402,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4438,7 +4426,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -4461,8 +4449,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4485,8 +4473,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4507,9 +4495,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -4533,8 +4521,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4557,8 +4545,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4581,8 +4569,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4605,8 +4593,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4627,7 +4615,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -4651,7 +4639,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -4675,11 +4663,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4699,10 +4687,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4723,10 +4711,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4747,11 +4735,11 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4771,11 +4759,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4795,11 +4783,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4819,11 +4807,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4844,9 +4832,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4868,10 +4856,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -4891,10 +4879,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4915,10 +4903,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4940,16 +4928,14 @@
       ]
     },
     "PYM": {
-      "nombre": "PYM",
-      "mes_activo": "Marzo",
-      "anio": "2026",
+      "nombre": "PY Macrolibramiento",
       "indicadores": [
         {
           "id": "1",
           "indicador": "% facturas de contado ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4970,10 +4956,10 @@
         },
         {
           "id": "2",
-          "indicador": "% facturas de crédito ligadas en SLA",
+          "indicador": "% facturas de cr?dito ligadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤5 días",
+          "objetivo": "?95%",
+          "sla": "?5 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -4994,10 +4980,10 @@
         },
         {
           "id": "3",
-          "indicador": "% requisición solicitada en SLA",
+          "indicador": "% requisici?n solicitada en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤48 hrs",
+          "objetivo": "?95%",
+          "sla": "?48 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5020,8 +5006,8 @@
           "id": "4",
           "indicador": "% requisiciones supervisadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5044,8 +5030,8 @@
           "id": "5",
           "indicador": "% requisiciones autorizadas en SLA",
           "area": "Compras",
-          "objetivo": "≥95%",
-          "sla": "≤12 hrs",
+          "objetivo": "?95%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5068,9 +5054,9 @@
           "id": "6",
           "indicador": "Tiempo promedio desde solicitud hasta OC",
           "area": "Compras",
-          "objetivo": "≤4 días",
-          "sla": "≤4 días",
-          "unidad": "días",
+          "objetivo": "?4 d?as",
+          "sla": "?4 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5090,11 +5076,11 @@
         },
         {
           "id": "7",
-          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
+          "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almac?n",
           "area": "Compras",
-          "objetivo": "≤6 días",
-          "sla": "≤6 días",
-          "unidad": "días",
+          "objetivo": "?6 d?as",
+          "sla": "?6 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5117,7 +5103,7 @@
           "indicador": "Proveedor con Expediente Completo en SIG",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5141,7 +5127,7 @@
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5162,10 +5148,10 @@
         },
         {
           "id": "14",
-          "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
-          "area": "Almacén",
+          "indicador": "Orden de Compra Comprada vs Entrada a Almac?n",
+          "area": "Almac?n",
           "objetivo": "90%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5186,11 +5172,11 @@
         },
         {
           "id": "15",
-          "indicador": "Refacción o material surtido en tiempo a proyectos",
-          "area": "Almacén",
-          "objetivo": "≤7 días",
-          "sla": "7 días",
-          "unidad": "días",
+          "indicador": "Refacci?n o material surtido en tiempo a proyectos",
+          "area": "Almac?n",
+          "objetivo": "?7 d?as",
+          "sla": "7 d?as",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5210,10 +5196,10 @@
         },
         {
           "id": "16",
-          "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
-          "area": "Almacén",
+          "indicador": "Veracidad de salida de almac?n - Muestreo de Inventario F?sico",
+          "area": "Almac?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5237,7 +5223,7 @@
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5261,7 +5247,7 @@
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
-          "sla": "—",
+          "sla": "?",
           "unidad": "mix",
           "valores": {
             "Ene": null,
@@ -5284,8 +5270,8 @@
           "id": "19",
           "indicador": "Disponibilidad de Maquinaria",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5308,8 +5294,8 @@
           "id": "20",
           "indicador": "Disponibilidad de Maquinaria (Alt)",
           "area": "Mantenimiento",
-          "objetivo": "≥70%",
-          "sla": "—",
+          "objetivo": "?70%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5330,9 +5316,9 @@
         },
         {
           "id": "21",
-          "indicador": "% diagnósticos en SLA",
+          "indicador": "% diagn?sticos en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
+          "objetivo": "?90%",
           "sla": "72 hrs",
           "unidad": "%",
           "valores": {
@@ -5356,8 +5342,8 @@
           "id": "22",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
-          "objetivo": "≥95%",
-          "sla": "≤4 hrs",
+          "objetivo": "?95%",
+          "sla": "?4 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5380,8 +5366,8 @@
           "id": "23",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤12 hrs",
+          "objetivo": "?90%",
+          "sla": "?12 hrs",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5404,8 +5390,8 @@
           "id": "24",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤20 días",
+          "objetivo": "?90%",
+          "sla": "?20 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5428,8 +5414,8 @@
           "id": "25",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
-          "objetivo": "≥90%",
-          "sla": "≤7 días",
+          "objetivo": "?90%",
+          "sla": "?7 d?as",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5450,7 +5436,7 @@
         },
         {
           "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Mayores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -5474,7 +5460,7 @@
         },
         {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario F?sico de Activos Fijos Menores - Verificaci?n por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -5498,11 +5484,11 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Categor?a de Activos",
           "area": "Activos Fijos",
           "objetivo": "Categ",
-          "sla": "—",
-          "unidad": "—",
+          "sla": "?",
+          "unidad": "?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5522,10 +5508,10 @@
         },
         {
           "id": "29",
-          "indicador": "Documentación Inicio de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Inicio de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5546,10 +5532,10 @@
         },
         {
           "id": "30",
-          "indicador": "Documentación Cierre de viaje",
-          "area": "Logística",
+          "indicador": "Documentaci?n Cierre de viaje",
+          "area": "Log?stica",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5570,11 +5556,11 @@
         },
         {
           "id": "38",
-          "indicador": "Número de incidentes de seguridad",
+          "indicador": "N?mero de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5594,11 +5580,11 @@
         },
         {
           "id": "39",
-          "indicador": "Número de accidentes de seguridad",
+          "indicador": "N?mero de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5618,11 +5604,11 @@
         },
         {
           "id": "40",
-          "indicador": "Días desde el último accidente",
+          "indicador": "D?as desde el ?ltimo accidente",
           "area": "Seguridad",
-          "objetivo": "máx",
-          "sla": "—",
-          "unidad": "días",
+          "objetivo": "m?x",
+          "sla": "?",
+          "unidad": "d?as",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5642,11 +5628,11 @@
         },
         {
           "id": "41",
-          "indicador": "Número de incidentes ambientales",
+          "indicador": "N?mero de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "—",
-          "unidad": "núm",
+          "sla": "?",
+          "unidad": "n?m",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5667,9 +5653,9 @@
         {
           "id": "52",
           "indicador": "Cumplimiento de metas mensuales",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5691,10 +5677,10 @@
         {
           "id": "53",
           "indicador": "Costo real vs Costo presupuestado",
-          "area": "Operación",
+          "area": "Operaci?n",
           "objetivo": "<15%",
-          "sla": "—",
-          "unidad": "% Δ",
+          "sla": "?",
+          "unidad": "% ?",
           "valores": {
             "Ene": null,
             "Feb": null,
@@ -5714,10 +5700,10 @@
         },
         {
           "id": "54",
-          "indicador": "Cumplimiento de programa de auditoría",
-          "area": "Operación",
+          "indicador": "Cumplimiento de programa de auditor?a",
+          "area": "Operaci?n",
           "objetivo": "100%",
-          "sla": "—",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5738,10 +5724,10 @@
         },
         {
           "id": "55",
-          "indicador": "Calificación",
-          "area": "Operación",
-          "objetivo": "≥85%",
-          "sla": "—",
+          "indicador": "Calificaci?n",
+          "area": "Operaci?n",
+          "objetivo": "?85%",
+          "sla": "?",
           "unidad": "%",
           "valores": {
             "Ene": null,
@@ -5764,17 +5750,15 @@
     }
   },
   "global": {
-    "nombre": "Globales — Oficinas Centrales",
-    "mes_activo": "Marzo",
-    "anio": "2026",
+    "nombre": "Globales ? Oficinas Centrales",
     "indicadores": [
       {
         "id": "9",
-        "indicador": "Tiempo de pago a proveedor de crédito desde factura",
+        "indicador": "Tiempo de pago a proveedor de cr?dito desde factura",
         "area": "Proveedores",
-        "objetivo": "30 días",
-        "sla": "30 días",
-        "unidad": "días",
+        "objetivo": "30 d?as",
+        "sla": "30 d?as",
+        "unidad": "d?as",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -5794,11 +5778,11 @@
       },
       {
         "id": "9.1",
-        "indicador": "Tiempo de pago a proveedor estratégico de crédito desde factura",
+        "indicador": "Tiempo de pago a proveedor estrat?gico de cr?dito desde factura",
         "area": "Proveedores",
-        "objetivo": "60 días",
-        "sla": "60 días",
-        "unidad": "días",
+        "objetivo": "60 d?as",
+        "sla": "60 d?as",
+        "unidad": "d?as",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -5818,10 +5802,10 @@
       },
       {
         "id": "10",
-        "indicador": "Porcentaje de facturas ligadas vs buzón",
+        "indicador": "Porcentaje de facturas ligadas vs buz?n",
         "area": "Proveedores",
         "objetivo": "100%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -5842,10 +5826,10 @@
       },
       {
         "id": "11",
-        "indicador": "Porcentaje de notas de crédito ligadas vs buzón",
+        "indicador": "Porcentaje de notas de cr?dito ligadas vs buz?n",
         "area": "Proveedores",
         "objetivo": "100%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -5869,8 +5853,8 @@
         "indicador": "Pagos pendientes fuera de plazo",
         "area": "Proveedores",
         "objetivo": "0",
-        "sla": "—",
-        "unidad": "núm",
+        "sla": "?",
+        "unidad": "n?m",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -5890,10 +5874,10 @@
       },
       {
         "id": "31",
-        "indicador": "Nóminas Timbradas",
+        "indicador": "N?minas Timbradas",
         "area": "Recursos Humanos",
         "objetivo": "100%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -5914,11 +5898,11 @@
       },
       {
         "id": "32",
-        "indicador": "Número de incidencias, requerimientos o multas",
+        "indicador": "N?mero de incidencias, requerimientos o multas",
         "area": "Recursos Humanos",
         "objetivo": "0",
-        "sla": "—",
-        "unidad": "núm",
+        "sla": "?",
+        "unidad": "n?m",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -5938,7 +5922,7 @@
       },
       {
         "id": "33",
-        "indicador": "Opinión positiva de declaración presentada",
+        "indicador": "Opini?n positiva de declaraci?n presentada",
         "area": "Recursos Humanos",
         "objetivo": "100%",
         "sla": "Trimestral",
@@ -5965,8 +5949,8 @@
         "indicador": "Cantidad de demandas abiertas",
         "area": "Recursos Humanos",
         "objetivo": "0",
-        "sla": "—",
-        "unidad": "núm",
+        "sla": "?",
+        "unidad": "n?m",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -5986,7 +5970,7 @@
       },
       {
         "id": "35",
-        "indicador": "Puntuación de Clima Laboral",
+        "indicador": "Puntuaci?n de Clima Laboral",
         "area": "Recursos Humanos",
         "objetivo": "90%",
         "sla": "Semestral",
@@ -6013,7 +5997,7 @@
         "indicador": "Empleados con expediente completo en SIG",
         "area": "Recursos Humanos",
         "objetivo": "100%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6034,10 +6018,10 @@
       },
       {
         "id": "37",
-        "indicador": "Porcentaje de empleado foráneo global",
+        "indicador": "Porcentaje de empleado for?neo global",
         "area": "Recursos Humanos",
-        "objetivo": "—",
-        "sla": "—",
+        "objetivo": "?",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6058,9 +6042,9 @@
       },
       {
         "id": "42",
-        "indicador": "Reciclar el plástico PET en un 5%, en comparación con el año anterior",
+        "indicador": "Reciclar el pl?stico PET en un 5%, en comparaci?n con el a?o anterior",
         "area": "Medio Ambiente",
-        "objetivo": "≥5%",
+        "objetivo": "?5%",
         "sla": "Anual",
         "unidad": "%",
         "valores": {
@@ -6082,11 +6066,11 @@
       },
       {
         "id": "43",
-        "indicador": "Compromiso ambiental cuidado de áreas verdes y reforestación",
+        "indicador": "Compromiso ambiental cuidado de ?reas verdes y reforestaci?n",
         "area": "Medio Ambiente",
-        "objetivo": "—",
+        "objetivo": "?",
         "sla": "Anual",
-        "unidad": "—",
+        "unidad": "?",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6106,11 +6090,11 @@
       },
       {
         "id": "44",
-        "indicador": "Compromiso ambiental cuidado de fauna en regiones de operación",
+        "indicador": "Compromiso ambiental cuidado de fauna en regiones de operaci?n",
         "area": "Medio Ambiente",
-        "objetivo": "—",
+        "objetivo": "?",
         "sla": "Anual",
-        "unidad": "—",
+        "unidad": "?",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6132,9 +6116,9 @@
         "id": "45",
         "indicador": "Desarrollar a colaboradores en temas de Medio Ambiente",
         "area": "Medio Ambiente",
-        "objetivo": "—",
+        "objetivo": "?",
         "sla": "Anual",
-        "unidad": "—",
+        "unidad": "?",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6154,9 +6138,9 @@
       },
       {
         "id": "46",
-        "indicador": "Reducir generación de hidrocarburos RSP en un 2% anual",
+        "indicador": "Reducir generaci?n de hidrocarburos RSP en un 2% anual",
         "area": "Medio Ambiente",
-        "objetivo": "≥2%",
+        "objetivo": "?2%",
         "sla": "Anual",
         "unidad": "%",
         "valores": {
@@ -6178,9 +6162,9 @@
       },
       {
         "id": "47",
-        "indicador": "Reducir al menos en un 5% anual la generación de residuos peligrosos",
+        "indicador": "Reducir al menos en un 5% anual la generaci?n de residuos peligrosos",
         "area": "Medio Ambiente",
-        "objetivo": "≥5%",
+        "objetivo": "?5%",
         "sla": "Anual",
         "unidad": "%",
         "valores": {
@@ -6206,7 +6190,7 @@
         "area": "Medio Ambiente",
         "objetivo": "<3 multas",
         "sla": "Anual",
-        "unidad": "núm",
+        "unidad": "n?m",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6226,7 +6210,7 @@
       },
       {
         "id": "49",
-        "indicador": "Reducir el consumo de energía en un 5%",
+        "indicador": "Reducir el consumo de energ?a en un 5%",
         "area": "Medio Ambiente",
         "objetivo": "<5%",
         "sla": "Anual",
@@ -6250,9 +6234,9 @@
       },
       {
         "id": "50",
-        "indicador": "Reducir el consumo hídrico de la empresa en un 5% anual",
+        "indicador": "Reducir el consumo h?drico de la empresa en un 5% anual",
         "area": "Medio Ambiente",
-        "objetivo": "≥5%",
+        "objetivo": "?5%",
         "sla": "Anual",
         "unidad": "%",
         "valores": {
@@ -6274,9 +6258,9 @@
       },
       {
         "id": "51",
-        "indicador": "Reducción de huella de carbono en un 2% anual",
+        "indicador": "Reducci?n de huella de carbono en un 2% anual",
         "area": "Medio Ambiente",
-        "objetivo": "≥2%",
+        "objetivo": "?2%",
         "sla": "Anual",
         "unidad": "%",
         "valores": {
@@ -6298,10 +6282,10 @@
       },
       {
         "id": "56",
-        "indicador": "Asegurar la aplicación del sistema de calidad en los proyectos",
+        "indicador": "Asegurar la aplicaci?n del sistema de calidad en los proyectos",
         "area": "Calidad",
-        "objetivo": "≥85%",
-        "sla": "—",
+        "objetivo": "?85%",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6322,11 +6306,11 @@
       },
       {
         "id": "57",
-        "indicador": "Hallazgos recurrentes en dos o más proyectos",
+        "indicador": "Hallazgos recurrentes en dos o m?s proyectos",
         "area": "Calidad",
         "objetivo": "0",
-        "sla": "—",
-        "unidad": "núm",
+        "sla": "?",
+        "unidad": "n?m",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6346,10 +6330,10 @@
       },
       {
         "id": "58",
-        "indicador": "Medición de Indicadores de proyectos",
+        "indicador": "Medici?n de Indicadores de proyectos",
         "area": "Mejora Continua",
         "objetivo": "100%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6373,7 +6357,7 @@
         "indicador": "Medir si las mejoras implementadas mejoran el proceso",
         "area": "Mejora Continua",
         "objetivo": "100%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6395,9 +6379,9 @@
       {
         "id": "60",
         "indicador": "% pagos aprobados en SLA",
-        "area": "Administración",
-        "objetivo": "≥95%",
-        "sla": "5 días",
+        "area": "Administraci?n",
+        "objetivo": "?95%",
+        "sla": "5 d?as",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6419,9 +6403,9 @@
       {
         "id": "61",
         "indicador": "% pagos ejecutados en SLA",
-        "area": "Administración",
-        "objetivo": "≥95%",
-        "sla": "≤24 hrs",
+        "area": "Administraci?n",
+        "objetivo": "?95%",
+        "sla": "?24 hrs",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6443,9 +6427,9 @@
       {
         "id": "62",
         "indicador": "Gastos comprobados",
-        "area": "Administración",
+        "area": "Administraci?n",
         "objetivo": "90%",
-        "sla": "—",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6467,9 +6451,9 @@
       {
         "id": "63",
         "indicador": "Porcentaje de Gastos no deducibles",
-        "area": "Administración",
-        "objetivo": "≤5%",
-        "sla": "—",
+        "area": "Administraci?n",
+        "objetivo": "?5%",
+        "sla": "?",
         "unidad": "%",
         "valores": {
           "Ene": null,
@@ -6491,10 +6475,10 @@
       {
         "id": "64",
         "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
-        "area": "Administración",
-        "objetivo": "≤30%",
-        "sla": "—",
-        "unidad": "% Δ",
+        "area": "Administraci?n",
+        "objetivo": "?30%",
+        "sla": "?",
+        "unidad": "% ?",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6514,11 +6498,11 @@
       },
       {
         "id": "65",
-        "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
-        "area": "Administración",
-        "objetivo": "30 días",
-        "sla": "—",
-        "unidad": "días",
+        "indicador": "Tiempos de cobranza entre realizaci?n del trabajo y el pago de estimaci?n",
+        "area": "Administraci?n",
+        "objetivo": "30 d?as",
+        "sla": "?",
+        "unidad": "d?as",
         "valores": {
           "Ene": null,
           "Feb": null,
@@ -6538,7 +6522,7 @@
       },
       {
         "id": "66",
-        "indicador": "Prueba del ácido",
+        "indicador": "Prueba del ?cido",
         "area": "Contabilidad",
         "objetivo": ">1",
         "sla": "Trimestral",
@@ -6562,9 +6546,9 @@
       },
       {
         "id": "67",
-        "indicador": "Razón de endeudamiento",
+        "indicador": "Raz?n de endeudamiento",
         "area": "Contabilidad",
-        "objetivo": "≤0.5",
+        "objetivo": "?0.5",
         "sla": "Trimestral",
         "unidad": "ratio",
         "valores": {
@@ -6588,7 +6572,7 @@
         "id": "68",
         "indicador": "Margen de utilidad",
         "area": "Contabilidad",
-        "objetivo": "≥10%",
+        "objetivo": "?10%",
         "sla": "Trimestral",
         "unidad": "%",
         "valores": {
@@ -6634,11 +6618,11 @@
       },
       {
         "id": "70",
-        "indicador": "Número de descalificaciones en las licitaciones presentadas",
+        "indicador": "N?mero de descalificaciones en las licitaciones presentadas",
         "area": "Licitaciones",
         "objetivo": "0",
-        "sla": "—",
-        "unidad": "núm",
+        "sla": "?",
+        "unidad": "n?m",
         "valores": {
           "Ene": null,
           "Feb": null,
