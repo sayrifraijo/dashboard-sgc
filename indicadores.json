@@ -101,7 +101,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -125,7 +125,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -149,7 +149,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -173,7 +173,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -197,7 +197,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -221,7 +221,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -245,7 +245,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -269,7 +269,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -293,7 +293,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -317,7 +317,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -341,7 +341,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -365,32 +365,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -414,9 +390,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -437,7 +413,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -461,7 +461,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -485,35 +485,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -534,9 +510,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -558,6 +534,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -581,7 +581,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -605,7 +605,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -629,7 +629,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -653,7 +653,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -677,11 +677,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -701,7 +701,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -725,7 +725,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -773,11 +773,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -797,7 +797,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -821,7 +821,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -845,7 +845,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -869,11 +869,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -994,7 +994,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -1018,7 +1018,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -1042,7 +1042,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -1066,7 +1066,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -1090,7 +1090,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -1114,7 +1114,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -1138,7 +1138,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -1162,7 +1162,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -1186,7 +1186,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -1210,7 +1210,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -1234,7 +1234,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -1258,32 +1258,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -1307,9 +1283,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -1330,7 +1306,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -1354,7 +1354,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -1378,35 +1378,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1427,9 +1403,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -1451,6 +1427,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -1474,7 +1474,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -1498,7 +1498,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -1522,7 +1522,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -1546,7 +1546,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -1570,11 +1570,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1594,7 +1594,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -1618,7 +1618,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -1666,11 +1666,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1690,7 +1690,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -1714,7 +1714,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -1738,7 +1738,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -1762,11 +1762,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1887,7 +1887,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -1911,7 +1911,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -1935,7 +1935,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -1959,7 +1959,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -1983,7 +1983,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -2007,7 +2007,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -2031,7 +2031,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -2055,7 +2055,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -2079,7 +2079,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -2103,7 +2103,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -2127,7 +2127,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -2151,32 +2151,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -2200,9 +2176,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -2223,7 +2199,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -2247,7 +2247,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -2271,35 +2271,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2320,9 +2296,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -2344,6 +2320,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -2367,7 +2367,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -2391,7 +2391,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -2415,7 +2415,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -2439,7 +2439,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -2463,11 +2463,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2487,7 +2487,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -2511,7 +2511,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -2559,11 +2559,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2583,7 +2583,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -2607,7 +2607,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -2631,7 +2631,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -2655,11 +2655,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2780,7 +2780,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -2804,7 +2804,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -2828,7 +2828,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -2852,7 +2852,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -2876,7 +2876,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -2900,7 +2900,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -2924,7 +2924,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -2948,7 +2948,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -2972,7 +2972,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -2996,7 +2996,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -3020,7 +3020,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -3044,32 +3044,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -3093,9 +3069,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -3116,7 +3092,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -3140,7 +3140,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -3164,35 +3164,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3213,9 +3189,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -3237,6 +3213,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -3260,7 +3260,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -3284,7 +3284,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -3308,7 +3308,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -3332,7 +3332,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -3356,11 +3356,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3380,7 +3380,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -3404,7 +3404,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -3452,11 +3452,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3476,7 +3476,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -3500,7 +3500,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -3524,7 +3524,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -3548,11 +3548,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3673,7 +3673,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -3697,7 +3697,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -3721,7 +3721,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -3745,7 +3745,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -3769,7 +3769,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -3793,7 +3793,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -3817,7 +3817,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -3841,7 +3841,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -3865,7 +3865,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -3889,7 +3889,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -3913,7 +3913,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -3937,32 +3937,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -3986,9 +3962,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -4009,7 +3985,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -4033,7 +4033,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -4057,35 +4057,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4106,9 +4082,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -4130,6 +4106,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -4153,7 +4153,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -4177,7 +4177,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -4201,7 +4201,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -4225,7 +4225,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -4249,11 +4249,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4273,7 +4273,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -4297,7 +4297,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -4345,11 +4345,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4369,7 +4369,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -4393,7 +4393,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -4417,7 +4417,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -4441,11 +4441,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4566,7 +4566,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -4590,7 +4590,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -4614,7 +4614,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -4638,7 +4638,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -4662,7 +4662,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -4686,7 +4686,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -4710,7 +4710,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -4734,7 +4734,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -4758,7 +4758,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -4782,7 +4782,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -4806,7 +4806,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -4830,32 +4830,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -4879,9 +4855,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -4902,7 +4878,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -4926,7 +4926,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -4950,35 +4950,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4999,9 +4975,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -5023,6 +4999,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -5046,7 +5046,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -5070,7 +5070,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -5094,7 +5094,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -5118,7 +5118,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -5142,11 +5142,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5166,7 +5166,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -5190,7 +5190,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -5238,11 +5238,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5262,7 +5262,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -5286,7 +5286,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -5310,7 +5310,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -5334,11 +5334,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5459,7 +5459,7 @@
           "observaciones": ""
         },
         {
-          "id": "12",
+          "id": "13",
           "indicador": "Remanes entregados a tiempo",
           "area": "Proveedores",
           "objetivo": "100%",
@@ -5483,7 +5483,7 @@
           "observaciones": ""
         },
         {
-          "id": "14",
+          "id": "15",
           "indicador": "Orden de Compra Comprada vs Entrada a Almacén",
           "area": "Almacén",
           "objetivo": "90%",
@@ -5507,7 +5507,7 @@
           "observaciones": ""
         },
         {
-          "id": "16",
+          "id": "17",
           "indicador": "Veracidad de salida de almacén - Muestreo de Inventario Físico",
           "area": "Almacén",
           "objetivo": "100%",
@@ -5531,7 +5531,7 @@
           "observaciones": ""
         },
         {
-          "id": "17",
+          "id": "18",
           "indicador": "Mantenimiento Preventivo/Programado Ejecutado vs plan",
           "area": "Mantenimiento",
           "objetivo": "100%",
@@ -5555,7 +5555,7 @@
           "observaciones": ""
         },
         {
-          "id": "18",
+          "id": "19",
           "indicador": "Mantenimiento Preventivo/Programado/Correctivo",
           "area": "Mantenimiento",
           "objetivo": "45/40/15",
@@ -5579,7 +5579,7 @@
           "observaciones": ""
         },
         {
-          "id": "20",
+          "id": "21",
           "indicador": "Disponibilidad de Maquinaria (Proyecto)",
           "area": "Mantenimiento",
           "objetivo": "≥70%",
@@ -5603,7 +5603,7 @@
           "observaciones": ""
         },
         {
-          "id": "21",
+          "id": "22",
           "indicador": "% diagnósticos en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -5627,7 +5627,7 @@
           "observaciones": ""
         },
         {
-          "id": "22",
+          "id": "23",
           "indicador": "% solicitudes de material para OTs correctivas entregadas en tiempo",
           "area": "Mantenimiento",
           "objetivo": "≥95%",
@@ -5651,7 +5651,7 @@
           "observaciones": ""
         },
         {
-          "id": "23",
+          "id": "24",
           "indicador": "% OT mantenimiento preventivo cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -5675,7 +5675,7 @@
           "observaciones": ""
         },
         {
-          "id": "24",
+          "id": "25",
           "indicador": "% OT mantenimiento correctivo mayor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -5699,7 +5699,7 @@
           "observaciones": ""
         },
         {
-          "id": "25",
+          "id": "26",
           "indicador": "% OT mantenimiento correctivo menor cerradas en SLA",
           "area": "Mantenimiento",
           "objetivo": "≥90%",
@@ -5723,32 +5723,8 @@
           "observaciones": ""
         },
         {
-          "id": "26",
-          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
-          "area": "Activos Fijos",
-          "objetivo": "100%",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
           "id": "27",
-          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
+          "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
           "sla": "Trimestral",
@@ -5772,9 +5748,9 @@
         },
         {
           "id": "28",
-          "indicador": "Categoría de Activos",
+          "indicador": "Inventario Físico de Activos Fijos Menores - Verificación por muestreo",
           "area": "Activos Fijos",
-          "objetivo": "Categ",
+          "objetivo": "100%",
           "sla": "Trimestral",
           "unidad": "",
           "valores": {
@@ -5795,7 +5771,31 @@
           "observaciones": ""
         },
         {
-          "id": "30",
+          "id": "29",
+          "indicador": "Categoría de Activos",
+          "area": "Activos Fijos",
+          "objetivo": "Categ",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "31",
           "indicador": "Documentación Cierre de viaje",
           "area": "Logística",
           "objetivo": "100%",
@@ -5819,7 +5819,7 @@
           "observaciones": ""
         },
         {
-          "id": "31",
+          "id": "32",
           "indicador": "Nóminas Timbradas",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -5843,35 +5843,11 @@
           "observaciones": ""
         },
         {
-          "id": "32",
+          "id": "33",
           "indicador": "Número de incidencias, requerimientos o multas",
           "area": "Recursos Humanos",
           "objetivo": "0",
-          "sla": "Mensual",
-          "unidad": "",
-          "valores": {
-            "Ene": null,
-            "Feb": null,
-            "Mar": null,
-            "Abr": null,
-            "May": null,
-            "Jun": null,
-            "Jul": null,
-            "Ago": null,
-            "Sep": null,
-            "Oct": null,
-            "Nov": null,
-            "Dic": null
-          },
-          "semaforo": "S/D",
-          "observaciones": ""
-        },
-        {
-          "id": "34",
-          "indicador": "Cantidad de demandas abiertas",
-          "area": "Recursos Humanos",
-          "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5892,9 +5868,9 @@
         },
         {
           "id": "35",
-          "indicador": "Puntuación de Clima Laboral",
+          "indicador": "Cantidad de demandas abiertas",
           "area": "Recursos Humanos",
-          "objetivo": "90%",
+          "objetivo": "0",
           "sla": "Semestral",
           "unidad": "",
           "valores": {
@@ -5916,6 +5892,30 @@
         },
         {
           "id": "36",
+          "indicador": "Puntuación de Clima Laboral",
+          "area": "Recursos Humanos",
+          "objetivo": "90%",
+          "sla": "Mensual",
+          "unidad": "",
+          "valores": {
+            "Ene": null,
+            "Feb": null,
+            "Mar": null,
+            "Abr": null,
+            "May": null,
+            "Jun": null,
+            "Jul": null,
+            "Ago": null,
+            "Sep": null,
+            "Oct": null,
+            "Nov": null,
+            "Dic": null
+          },
+          "semaforo": "S/D",
+          "observaciones": ""
+        },
+        {
+          "id": "37",
           "indicador": "Empleados con expediente completo en SIG",
           "area": "Recursos Humanos",
           "objetivo": "100%",
@@ -5939,7 +5939,7 @@
           "observaciones": ""
         },
         {
-          "id": "37",
+          "id": "38",
           "indicador": "Porcentaje de empleado foráneo global",
           "area": "Recursos Humanos",
           "objetivo": "—",
@@ -5963,7 +5963,7 @@
           "observaciones": ""
         },
         {
-          "id": "38",
+          "id": "39",
           "indicador": "Número de incidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -5987,7 +5987,7 @@
           "observaciones": ""
         },
         {
-          "id": "39",
+          "id": "40",
           "indicador": "Número de accidentes de seguridad",
           "area": "Seguridad",
           "objetivo": "0",
@@ -6011,7 +6011,7 @@
           "observaciones": ""
         },
         {
-          "id": "40",
+          "id": "41",
           "indicador": "Días desde el último accidente",
           "area": "Seguridad",
           "objetivo": "máx",
@@ -6035,11 +6035,11 @@
           "observaciones": ""
         },
         {
-          "id": "41",
+          "id": "42",
           "indicador": "Número de incidentes ambientales",
           "area": "Medio Ambiente",
           "objetivo": "0",
-          "sla": "Mensual",
+          "sla": "Anual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -6059,7 +6059,7 @@
           "observaciones": ""
         },
         {
-          "id": "52",
+          "id": "53",
           "indicador": "Cumplimiento de metas mensuales",
           "area": "Operación",
           "objetivo": "≥95%",
@@ -6083,7 +6083,7 @@
           "observaciones": ""
         },
         {
-          "id": "53",
+          "id": "54",
           "indicador": "Costo real vs Costo presupuestado",
           "area": "Operación",
           "objetivo": "<15%",
@@ -6131,11 +6131,11 @@
           "observaciones": ""
         },
         {
-          "id": "54",
+          "id": "56",
           "indicador": "Cumplimiento de programa de auditoría",
           "area": "Calidad",
           "objetivo": "100%",
-          "sla": "Mensual",
+          "sla": "Semestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -6155,7 +6155,7 @@
           "observaciones": ""
         },
         {
-          "id": "62",
+          "id": "63",
           "indicador": "Gastos comprobados",
           "area": "Administración",
           "objetivo": "90%",
@@ -6179,7 +6179,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "64",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -6203,7 +6203,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "65",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -6227,11 +6227,11 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "66",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Mensual",
+          "sla": "Trimestral",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -6377,7 +6377,7 @@
         "observaciones": ""
       },
       {
-        "id": "9.1",
+        "id": "10",
         "indicador": "Tiempo de pago a proveedor estratégico de crédito desde factura",
         "area": "Proveedores",
         "objetivo": "60 días",
@@ -6401,7 +6401,7 @@
         "observaciones": ""
       },
       {
-        "id": "10",
+        "id": "11",
         "indicador": "Porcentaje de facturas ligadas vs buzón",
         "area": "Proveedores",
         "objetivo": "100%",
@@ -6425,7 +6425,7 @@
         "observaciones": ""
       },
       {
-        "id": "11",
+        "id": "12",
         "indicador": "Porcentaje de notas de crédito ligadas vs buzón",
         "area": "Proveedores",
         "objetivo": "100%",
@@ -6449,7 +6449,7 @@
         "observaciones": ""
       },
       {
-        "id": "13",
+        "id": "14",
         "indicador": "Pagos pendientes fuera de plazo",
         "area": "Proveedores",
         "objetivo": "0",
@@ -6473,7 +6473,7 @@
         "observaciones": ""
       },
       {
-        "id": "15",
+        "id": "16",
         "indicador": "Refacción o material surtido en tiempo a proyectos",
         "area": "Almacén",
         "objetivo": "≤7 días",
@@ -6497,7 +6497,7 @@
         "observaciones": ""
       },
       {
-        "id": "19",
+        "id": "20",
         "indicador": "Disponibilidad de Maquinaria",
         "area": "Mantenimiento",
         "objetivo": "≥70%",
@@ -6521,35 +6521,11 @@
         "observaciones": ""
       },
       {
-        "id": "33",
+        "id": "34",
         "indicador": "Opinión positiva de declaración presentada",
         "area": "Recursos Humanos",
         "objetivo": "100%",
-        "sla": "Trimestral",
-        "unidad": "",
-        "valores": {
-          "Ene": null,
-          "Feb": null,
-          "Mar": null,
-          "Abr": null,
-          "May": null,
-          "Jun": null,
-          "Jul": null,
-          "Ago": null,
-          "Sep": null,
-          "Oct": null,
-          "Nov": null,
-          "Dic": null
-        },
-        "semaforo": "S/D",
-        "observaciones": ""
-      },
-      {
-        "id": "28",
-        "indicador": "Categoría de Activos",
-        "area": "Activos Fijos",
-        "objetivo": "Categ",
-        "sla": "Trimestral",
+        "sla": "Mensual",
         "unidad": "",
         "valores": {
           "Ene": null,
@@ -6570,6 +6546,30 @@
       },
       {
         "id": "29",
+        "indicador": "Categoría de Activos",
+        "area": "Activos Fijos",
+        "objetivo": "Categ",
+        "sla": "Mensual",
+        "unidad": "",
+        "valores": {
+          "Ene": null,
+          "Feb": null,
+          "Mar": null,
+          "Abr": null,
+          "May": null,
+          "Jun": null,
+          "Jul": null,
+          "Ago": null,
+          "Sep": null,
+          "Oct": null,
+          "Nov": null,
+          "Dic": null
+        },
+        "semaforo": "S/D",
+        "observaciones": ""
+      },
+      {
+        "id": "30",
         "indicador": "Documentación Inicio de viaje",
         "area": "Logística",
         "objetivo": "100%",
@@ -6593,7 +6593,7 @@
         "observaciones": ""
       },
       {
-        "id": "42",
+        "id": "43",
         "indicador": "Reciclar el plástico PET en un 5%, en comparación con el año anterior",
         "area": "Medio Ambiente",
         "objetivo": "≥5%",
@@ -6617,7 +6617,7 @@
         "observaciones": ""
       },
       {
-        "id": "43",
+        "id": "44",
         "indicador": "Compromiso ambiental cuidado de áreas verdes y reforestación",
         "area": "Medio Ambiente",
         "objetivo": "—",
@@ -6641,7 +6641,7 @@
         "observaciones": ""
       },
       {
-        "id": "44",
+        "id": "45",
         "indicador": "Compromiso ambiental cuidado de fauna en regiones de operación",
         "area": "Medio Ambiente",
         "objetivo": "—",
@@ -6665,7 +6665,7 @@
         "observaciones": ""
       },
       {
-        "id": "45",
+        "id": "46",
         "indicador": "Desarrollar a colaboradores en temas de Medio Ambiente",
         "area": "Medio Ambiente",
         "objetivo": "—",
@@ -6689,7 +6689,7 @@
         "observaciones": ""
       },
       {
-        "id": "46",
+        "id": "47",
         "indicador": "Reducir generación de hidrocarburos RSP en un 2% anual",
         "area": "Medio Ambiente",
         "objetivo": "≥2%",
@@ -6713,7 +6713,7 @@
         "observaciones": ""
       },
       {
-        "id": "47",
+        "id": "48",
         "indicador": "Reducir al menos en un 5% anual la generación de residuos peligrosos",
         "area": "Medio Ambiente",
         "objetivo": "≥5%",
@@ -6737,7 +6737,7 @@
         "observaciones": ""
       },
       {
-        "id": "48",
+        "id": "49",
         "indicador": "Cumplimientos de lineamientos medio ambientales",
         "area": "Medio Ambiente",
         "objetivo": "<3 multas",
@@ -6761,7 +6761,7 @@
         "observaciones": ""
       },
       {
-        "id": "49",
+        "id": "50",
         "indicador": "Reducir el consumo de energía en un 5%",
         "area": "Medio Ambiente",
         "objetivo": "<5%",
@@ -6785,7 +6785,7 @@
         "observaciones": ""
       },
       {
-        "id": "50",
+        "id": "51",
         "indicador": "Reducir el consumo hídrico de la empresa en un 5% anual",
         "area": "Medio Ambiente",
         "objetivo": "≥5%",
@@ -6809,11 +6809,11 @@
         "observaciones": ""
       },
       {
-        "id": "51",
+        "id": "52",
         "indicador": "Reducción de huella de carbono en un 2% anual",
         "area": "Medio Ambiente",
         "objetivo": "≥2%",
-        "sla": "Anual",
+        "sla": "Mensual",
         "unidad": "",
         "valores": {
           "Ene": null,
@@ -6833,7 +6833,7 @@
         "observaciones": ""
       },
       {
-        "id": "56",
+        "id": "57",
         "indicador": "Asegurar la aplicación del sistema de calidad en los proyectos",
         "area": "Calidad",
         "objetivo": "≥85%",
@@ -6857,11 +6857,11 @@
         "observaciones": ""
       },
       {
-        "id": "57",
+        "id": "58",
         "indicador": "Hallazgos recurrentes en dos o más proyectos",
         "area": "Calidad",
         "objetivo": "0",
-        "sla": "Semestral",
+        "sla": "Mensual",
         "unidad": "",
         "valores": {
           "Ene": null,
@@ -6881,7 +6881,7 @@
         "observaciones": ""
       },
       {
-        "id": "58",
+        "id": "59",
         "indicador": "Medición de Indicadores de proyectos",
         "area": "Mejora Continua",
         "objetivo": "100%",
@@ -6905,7 +6905,7 @@
         "observaciones": ""
       },
       {
-        "id": "59",
+        "id": "60",
         "indicador": "Medir si las mejoras implementadas mejoran el proceso",
         "area": "Mejora Continua",
         "objetivo": "100%",
@@ -6929,32 +6929,8 @@
         "observaciones": ""
       },
       {
-        "id": "60",
-        "indicador": "% pagos aprobados en SLA",
-        "area": "Administración",
-        "objetivo": "≥95%",
-        "sla": "Mensual",
-        "unidad": "",
-        "valores": {
-          "Ene": null,
-          "Feb": null,
-          "Mar": null,
-          "Abr": null,
-          "May": null,
-          "Jun": null,
-          "Jul": null,
-          "Ago": null,
-          "Sep": null,
-          "Oct": null,
-          "Nov": null,
-          "Dic": null
-        },
-        "semaforo": "S/D",
-        "observaciones": ""
-      },
-      {
         "id": "61",
-        "indicador": "% pagos ejecutados en SLA",
+        "indicador": "% pagos a contado ejecutados en SLA",
         "area": "Administración",
         "objetivo": "≥95%",
         "sla": "Mensual",
