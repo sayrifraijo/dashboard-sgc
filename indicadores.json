@@ -1,5 +1,5 @@
 {
-  "generado": "2026-05-06",
+  "generado": "2026-05-07",
   "proyectos": {
     "PCM": {
       "nombre": "PC Mina",
@@ -369,7 +369,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1262,7 +1262,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2155,7 +2155,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3048,7 +3048,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3941,7 +3941,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4834,7 +4834,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5727,7 +5727,7 @@
           "indicador": "Inventario Físico de Activos Fijos Mayores - Verificación por muestreo",
           "area": "Activos Fijos",
           "objetivo": "100%",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
