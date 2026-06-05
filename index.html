@@ -365,12 +365,14 @@ function buildKpi(ind, mes) {
 function renderSummary(kpis) {
   let ok=0,warn=0,danger=0,nd=0;
   kpis.forEach(k=>{ if(k._st==="ok")ok++; else if(k._st==="warn")warn++; else if(k._st==="danger")danger++; else nd++; });
-  const total=kpis.length, pct=total?Math.round(ok/total*100):0;
+  const total=kpis.length;
+  const cumple=ok+warn;
+  const pct=total?Math.round(cumple/total*100):0;
   const os=danger?"danger":warn?"warn":"neutral";
   document.getElementById("summary-grid").innerHTML=`
     <div class="sc ${os}"><div class="sc-label">Cumplimiento general</div><div class="sc-val">${pct}%</div><div class="sc-sub">${total} indicadores activos</div></div>
     <div class="sc ok"><div class="sc-label">En objetivo</div><div class="sc-val">${ok}</div><div class="sc-sub">indicadores</div></div>
-    <div class="sc ${warn?"warn":"neutral"}"><div class="sc-label">En riesgo</div><div class="sc-val">${warn}</div><div class="sc-sub">80–99% del objetivo</div></div>
+    <div class="sc ${warn?"warn":"neutral"}"><div class="sc-label">En riesgo</div><div class="sc-val">${warn}</div><div class="sc-sub">cumple, cerca del límite</div></div>
     <div class="sc ${danger?"danger":"neutral"}"><div class="sc-label">Incumplimiento</div><div class="sc-val">${danger}</div><div class="sc-sub">${nd} sin dato este periodo</div></div>`;
 }
 
