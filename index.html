@@ -179,9 +179,10 @@
       <div class="nav-item" onclick="selectProj('MCL',this)"><div class="nav-dot nav-dot-mine"></div>MC Lluvia de Oro</div>
       <div class="nav-item" style="font-style:italic;opacity:0.8" onclick="selectProj('GMIN',this)"><div class="nav-dot" style="background:#93c5fd"></div>Global Minería</div>
       <div class="sidebar-section">Obra civil</div>
-      <div class="nav-item" onclick="selectProj('PYC',this)"><div class="nav-dot nav-dot-civil"></div>PY Colima Armerías</div>
+      <div class="nav-item" onclick="selectProj('PYC',this)"><div class="nav-dot nav-dot-civil"></div>PY Caseta</div>
       <div class="nav-item" onclick="selectProj('PYE',this)"><div class="nav-dot nav-dot-civil"></div>PY Entronques</div>
       <div class="nav-item" onclick="selectProj('PYM',this)"><div class="nav-dot nav-dot-civil"></div>PY Macrolibramiento</div>
+      <div class="nav-item" onclick="selectProj('PYA',this)"><div class="nav-dot nav-dot-civil"></div>PY Autopista</div>
       <div class="nav-item" style="font-style:italic;opacity:0.8" onclick="selectProj('GCIV',this)"><div class="nav-dot" style="background:#c4b5fd"></div>Global Obra Civil</div>
       <div class="sidebar-section">General</div>
       <div class="nav-item" onclick="selectProj('OFC',this)"><div class="nav-dot" style="background:#34d399"></div>Oficinas Centrales</div>
@@ -259,10 +260,10 @@ let currentArea = "Operación";
 let DATA = null;
 let isDark = true;
 
-const PROJS = { PCM:"PC Mina", PCT:"PC Trituración", AMT:"AM Truchas", MCL:"MC Lluvia de Oro", PYC:"PY Colima Armerías", PYE:"PY Entronques", PYM:"PY Macrolibramiento", GMIN:"Global Minería", GCIV:"Global Obra Civil", OFC:"Oficinas Centrales" };
-const PROJ_TYPE = { PCM:"Minería", PCT:"Minería", AMT:"Minería", MCL:"Minería", PYC:"Obra civil", PYE:"Obra civil", PYM:"Obra civil", GMIN:"Promedio Minería", GCIV:"Promedio Obra Civil", OFC:"General" };
+const PROJS = { PCM:"PC Mina", PCT:"PC Trituración", AMT:"AM Truchas", MCL:"MC Lluvia de Oro", PYC:"PY Caseta", PYE:"PY Entronques", PYM:"PY Macrolibramiento", PYA:"PY Autopista", GMIN:"Global Minería", GCIV:"Global Obra Civil", OFC:"Oficinas Centrales" };
+const PROJ_TYPE = { PCM:"Minería", PCT:"Minería", AMT:"Minería", MCL:"Minería", PYC:"Obra civil", PYE:"Obra civil", PYM:"Obra civil", PYA:"Obra civil", GMIN:"Promedio Minería", GCIV:"Promedio Obra Civil", OFC:"General" };
 const PROJS_MINERIA = ["PCM","PCT","AMT","MCL"];
-const PROJS_CIVIL   = ["PYC","PYE","PYM"];
+const PROJS_CIVIL   = ["PYC","PYE","PYM","PYA"];
 const MESES_LABEL = { Ene:"Ene 2026", Feb:"Feb 2026", Mar:"Mar 2026", Abr:"Abr 2026", May:"May 2026", Jun:"Jun 2026", Jul:"Jul 2026", Ago:"Ago 2026", Sep:"Sep 2026", Oct:"Oct 2026", Nov:"Nov 2026", Dic:"Dic 2026" };
 const MESES_ORD = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
 
