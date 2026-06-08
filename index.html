@@ -179,10 +179,10 @@
       <div class="nav-item" onclick="selectProj('MCL',this)"><div class="nav-dot nav-dot-mine"></div>MC Lluvia de Oro</div>
       <div class="nav-item" style="font-style:italic;opacity:0.8" onclick="selectProj('GMIN',this)"><div class="nav-dot" style="background:#93c5fd"></div>Global Minería</div>
       <div class="sidebar-section">Obra civil</div>
-      <div class="nav-item" onclick="selectProj('PYC',this)"><div class="nav-dot nav-dot-civil"></div>PY Caseta</div>
+      <div class="nav-item" onclick="selectProj('PYA',this)"><div class="nav-dot nav-dot-civil"></div>PY Autopista</div>
       <div class="nav-item" onclick="selectProj('PYE',this)"><div class="nav-dot nav-dot-civil"></div>PY Entronques</div>
       <div class="nav-item" onclick="selectProj('PYM',this)"><div class="nav-dot nav-dot-civil"></div>PY Macrolibramiento</div>
-      <div class="nav-item" onclick="selectProj('PYA',this)"><div class="nav-dot nav-dot-civil"></div>PY Autopista</div>
+      <div class="nav-item" onclick="selectProj('PYC',this)"><div class="nav-dot nav-dot-civil"></div>PY Caseta</div>
       <div class="nav-item" style="font-style:italic;opacity:0.8" onclick="selectProj('GCIV',this)"><div class="nav-dot" style="background:#c4b5fd"></div>Global Obra Civil</div>
       <div class="sidebar-section">General</div>
       <div class="nav-item" onclick="selectProj('OFC',this)"><div class="nav-dot" style="background:#34d399"></div>Oficinas Centrales</div>
@@ -222,7 +222,7 @@
         <select id="sel-period" onchange="render()">
           <option value="Ene">Enero 2026</option>
           <option value="Feb">Febrero 2026</option>
-          <option value="Mar" selected>Marzo 2026</option>
+          <option value="Mar">Marzo 2026</option>
           <option value="Abr">Abril 2026</option>
           <option value="May">Mayo 2026</option>
           <option value="Jun">Junio 2026</option>
@@ -233,6 +233,22 @@
           <option value="Nov">Noviembre 2026</option>
           <option value="Dic">Diciembre 2026</option>
         </select>
+        <script>
+          (function() {
+            const hoy = new Date();
+            hoy.setMonth(hoy.getMonth() - 1);
+            const meses = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+            const mesAnterior = meses[hoy.getMonth()];
+            const sel = document.getElementById("sel-period");
+            if (sel) {
+              sel.value = mesAnterior;
+              const badge = document.getElementById("period-badge");
+              if (badge && sel.options[sel.selectedIndex]) {
+                badge.textContent = sel.options[sel.selectedIndex].text.replace(" 2026","").trim() + " 2026";
+              }
+            }
+          })();
+        </script>
         <div class="period-badge" id="period-badge">Mar 2026</div>
       </div>
     </div>
@@ -263,7 +279,7 @@ let isDark = true;
 const PROJS = { PCM:"PC Mina", PCT:"PC Trituración", AMT:"AM Truchas", MCL:"MC Lluvia de Oro", PYC:"PY Caseta", PYE:"PY Entronques", PYM:"PY Macrolibramiento", PYA:"PY Autopista", GMIN:"Global Minería", GCIV:"Global Obra Civil", OFC:"Oficinas Centrales" };
 const PROJ_TYPE = { PCM:"Minería", PCT:"Minería", AMT:"Minería", MCL:"Minería", PYC:"Obra civil", PYE:"Obra civil", PYM:"Obra civil", PYA:"Obra civil", GMIN:"Promedio Minería", GCIV:"Promedio Obra Civil", OFC:"General" };
 const PROJS_MINERIA = ["PCM","PCT","AMT","MCL"];
-const PROJS_CIVIL   = ["PYC","PYE","PYM","PYA"];
+const PROJS_CIVIL   = ["PYA","PYE","PYM","PYC"];
 const MESES_LABEL = { Ene:"Ene 2026", Feb:"Feb 2026", Mar:"Mar 2026", Abr:"Abr 2026", May:"May 2026", Jun:"Jun 2026", Jul:"Jul 2026", Ago:"Ago 2026", Sep:"Sep 2026", Oct:"Oct 2026", Nov:"Nov 2026", Dic:"Dic 2026" };
 const MESES_ORD = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
 
@@ -365,14 +381,12 @@ function buildKpi(ind, mes) {
 function renderSummary(kpis) {
   let ok=0,warn=0,danger=0,nd=0;
   kpis.forEach(k=>{ if(k._st==="ok")ok++; else if(k._st==="warn")warn++; else if(k._st==="danger")danger++; else nd++; });
-  const total=kpis.length;
-  const cumple=ok+warn;
-  const pct=total?Math.round(cumple/total*100):0;
+  const total=kpis.length, pct=total?Math.round(ok/total*100):0;
   const os=danger?"danger":warn?"warn":"neutral";
   document.getElementById("summary-grid").innerHTML=`
     <div class="sc ${os}"><div class="sc-label">Cumplimiento general</div><div class="sc-val">${pct}%</div><div class="sc-sub">${total} indicadores activos</div></div>
     <div class="sc ok"><div class="sc-label">En objetivo</div><div class="sc-val">${ok}</div><div class="sc-sub">indicadores</div></div>
-    <div class="sc ${warn?"warn":"neutral"}"><div class="sc-label">En riesgo</div><div class="sc-val">${warn}</div><div class="sc-sub">cumple, cerca del límite</div></div>
+    <div class="sc ${warn?"warn":"neutral"}"><div class="sc-label">En riesgo</div><div class="sc-val">${warn}</div><div class="sc-sub">80–99% del objetivo</div></div>
     <div class="sc ${danger?"danger":"neutral"}"><div class="sc-label">Incumplimiento</div><div class="sc-val">${danger}</div><div class="sc-sub">${nd} sin dato este periodo</div></div>`;
 }
 
