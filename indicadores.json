@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-05",
+  "generado": "2026-06-08",
   "proyectos": {
     "PCM": {
       "nombre": "PC Mina",
@@ -376,7 +376,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 65,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -1269,7 +1269,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 90,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -2162,7 +2162,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 35,
             "Jun": null,
             "Jul": null,
             "Ago": null,
