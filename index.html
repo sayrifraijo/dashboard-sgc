@@ -148,6 +148,37 @@
   ::-webkit-scrollbar-thumb { background: var(--bg4); border-radius: 3px; }
   ::-webkit-scrollbar-thumb:hover { background: var(--text3); }
 
+  /* MODAL DE DETALLE */
+  .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:100; align-items:center; justify-content:center; padding:20px; }
+  .modal-overlay.open { display:flex; }
+  .modal-box { background:var(--bg2); border:1px solid var(--border2); border-radius:14px; width:100%; max-width:680px; max-height:88vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,0,0,0.4); }
+  .modal-hdr { display:flex; align-items:flex-start; justify-content:space-between; padding:20px 22px 14px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--bg2); z-index:2; }
+  .modal-num { font-size:11px; color:var(--text3); font-family:var(--mono); }
+  .modal-title { font-size:17px; font-weight:600; color:var(--text); margin-top:2px; line-height:1.3; }
+  .modal-close { background:var(--bg3); border:1px solid var(--border2); color:var(--text2); width:30px; height:30px; border-radius:8px; cursor:pointer; font-size:16px; line-height:1; flex-shrink:0; margin-left:12px; }
+  .modal-close:hover { background:var(--bg4); color:var(--text); }
+  .modal-body { padding:18px 22px 24px; }
+  .modal-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:18px; }
+  .mstat { background:var(--bg3); border:1px solid var(--border); border-radius:10px; padding:10px 12px; }
+  .mstat-label { font-size:10px; color:var(--text3); margin-bottom:4px; text-transform:uppercase; letter-spacing:.04em; }
+  .mstat-val { font-size:18px; font-weight:600; color:var(--text); font-family:var(--mono); }
+  .modal-section-title { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:.06em; margin:18px 0 10px; }
+  .chart-wrap { background:var(--bg3); border:1px solid var(--border); border-radius:10px; padding:14px 10px 8px; }
+  .chart-svg { width:100%; height:140px; display:block; }
+  .chart-legend { display:flex; gap:14px; padding:0 6px; margin-top:6px; flex-wrap:wrap; }
+  .chart-leg-item { display:flex; align-items:center; gap:5px; font-size:10px; color:var(--text3); }
+  .chart-leg-dot { width:8px; height:8px; border-radius:2px; }
+  .proj-compare { display:flex; flex-direction:column; gap:4px; }
+  .proj-row { display:grid; grid-template-columns:1fr 60px 50px; gap:8px; align-items:center; padding:6px 10px; background:var(--bg3); border-radius:6px; font-size:11px; }
+  .proj-row-name { color:var(--text2); }
+  .proj-row-val { font-family:var(--mono); font-weight:600; color:var(--text); text-align:right; }
+  .modal-obs { font-size:11px; color:var(--text3); background:var(--bg3); padding:10px 12px; border-radius:8px; margin-top:14px; line-height:1.5; }
+  @media (max-width:640px) {
+    .modal-overlay { padding:0; align-items:flex-end; }
+    .modal-box { max-width:100%; max-height:92vh; border-radius:14px 14px 0 0; }
+    .modal-stats { grid-template-columns:repeat(3,1fr); }
+  }
+
   @media (max-width: 900px) {
     .sidebar { width: 180px; } .main { margin-left: 180px; }
     .summary-grid { grid-template-columns: repeat(2,1fr); }
@@ -179,10 +210,10 @@
       <div class="nav-item" onclick="selectProj('MCL',this)"><div class="nav-dot nav-dot-mine"></div>MC Lluvia de Oro</div>
       <div class="nav-item" style="font-style:italic;opacity:0.8" onclick="selectProj('GMIN',this)"><div class="nav-dot" style="background:#93c5fd"></div>Global Minería</div>
       <div class="sidebar-section">Obra civil</div>
-      <div class="nav-item" onclick="selectProj('PYA',this)"><div class="nav-dot nav-dot-civil"></div>PY Autopista</div>
+      <div class="nav-item" onclick="selectProj('PYC',this)"><div class="nav-dot nav-dot-civil"></div>PY Caseta</div>
       <div class="nav-item" onclick="selectProj('PYE',this)"><div class="nav-dot nav-dot-civil"></div>PY Entronques</div>
       <div class="nav-item" onclick="selectProj('PYM',this)"><div class="nav-dot nav-dot-civil"></div>PY Macrolibramiento</div>
-      <div class="nav-item" onclick="selectProj('PYC',this)"><div class="nav-dot nav-dot-civil"></div>PY Caseta</div>
+      <div class="nav-item" onclick="selectProj('PYA',this)"><div class="nav-dot nav-dot-civil"></div>PY Autopista</div>
       <div class="nav-item" style="font-style:italic;opacity:0.8" onclick="selectProj('GCIV',this)"><div class="nav-dot" style="background:#c4b5fd"></div>Global Obra Civil</div>
       <div class="sidebar-section">General</div>
       <div class="nav-item" onclick="selectProj('OFC',this)"><div class="nav-dot" style="background:#34d399"></div>Oficinas Centrales</div>
@@ -222,7 +253,7 @@
         <select id="sel-period" onchange="render()">
           <option value="Ene">Enero 2026</option>
           <option value="Feb">Febrero 2026</option>
-          <option value="Mar">Marzo 2026</option>
+          <option value="Mar" selected>Marzo 2026</option>
           <option value="Abr">Abril 2026</option>
           <option value="May">Mayo 2026</option>
           <option value="Jun">Junio 2026</option>
@@ -233,22 +264,6 @@
           <option value="Nov">Noviembre 2026</option>
           <option value="Dic">Diciembre 2026</option>
         </select>
-        <script>
-          (function() {
-            const hoy = new Date();
-            hoy.setMonth(hoy.getMonth() - 1);
-            const meses = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
-            const mesAnterior = meses[hoy.getMonth()];
-            const sel = document.getElementById("sel-period");
-            if (sel) {
-              sel.value = mesAnterior;
-              const badge = document.getElementById("period-badge");
-              if (badge && sel.options[sel.selectedIndex]) {
-                badge.textContent = sel.options[sel.selectedIndex].text.replace(" 2026","").trim() + " 2026";
-              }
-            }
-          })();
-        </script>
         <div class="period-badge" id="period-badge">Mar 2026</div>
       </div>
     </div>
@@ -269,6 +284,20 @@
   </div>
 </div>
 
+<!-- MODAL DE DETALLE -->
+<div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this) closeModal()">
+  <div class="modal-box">
+    <div class="modal-hdr">
+      <div>
+        <div class="modal-num" id="modal-num"></div>
+        <div class="modal-title" id="modal-title"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
 <script>
 let currentView = "proyecto";
 let currentProj = "PCM";
@@ -279,7 +308,7 @@ let isDark = true;
 const PROJS = { PCM:"PC Mina", PCT:"PC Trituración", AMT:"AM Truchas", MCL:"MC Lluvia de Oro", PYC:"PY Caseta", PYE:"PY Entronques", PYM:"PY Macrolibramiento", PYA:"PY Autopista", GMIN:"Global Minería", GCIV:"Global Obra Civil", OFC:"Oficinas Centrales" };
 const PROJ_TYPE = { PCM:"Minería", PCT:"Minería", AMT:"Minería", MCL:"Minería", PYC:"Obra civil", PYE:"Obra civil", PYM:"Obra civil", PYA:"Obra civil", GMIN:"Promedio Minería", GCIV:"Promedio Obra Civil", OFC:"General" };
 const PROJS_MINERIA = ["PCM","PCT","AMT","MCL"];
-const PROJS_CIVIL   = ["PYA","PYE","PYM","PYC"];
+const PROJS_CIVIL   = ["PYC","PYE","PYM","PYA"];
 const MESES_LABEL = { Ene:"Ene 2026", Feb:"Feb 2026", Mar:"Mar 2026", Abr:"Abr 2026", May:"May 2026", Jun:"Jun 2026", Jul:"Jul 2026", Ago:"Ago 2026", Sep:"Sep 2026", Oct:"Oct 2026", Nov:"Nov 2026", Dic:"Dic 2026" };
 const MESES_ORD = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
 
@@ -381,12 +410,14 @@ function buildKpi(ind, mes) {
 function renderSummary(kpis) {
   let ok=0,warn=0,danger=0,nd=0;
   kpis.forEach(k=>{ if(k._st==="ok")ok++; else if(k._st==="warn")warn++; else if(k._st==="danger")danger++; else nd++; });
-  const total=kpis.length, pct=total?Math.round(ok/total*100):0;
+  const total=kpis.length;
+  const cumple=ok+warn;
+  const pct=total?Math.round(cumple/total*100):0;
   const os=danger?"danger":warn?"warn":"neutral";
   document.getElementById("summary-grid").innerHTML=`
     <div class="sc ${os}"><div class="sc-label">Cumplimiento general</div><div class="sc-val">${pct}%</div><div class="sc-sub">${total} indicadores activos</div></div>
     <div class="sc ok"><div class="sc-label">En objetivo</div><div class="sc-val">${ok}</div><div class="sc-sub">indicadores</div></div>
-    <div class="sc ${warn?"warn":"neutral"}"><div class="sc-label">En riesgo</div><div class="sc-val">${warn}</div><div class="sc-sub">80–99% del objetivo</div></div>
+    <div class="sc ${warn?"warn":"neutral"}"><div class="sc-label">En riesgo</div><div class="sc-val">${warn}</div><div class="sc-sub">cumple, cerca del límite</div></div>
     <div class="sc ${danger?"danger":"neutral"}"><div class="sc-label">Incumplimiento</div><div class="sc-val">${danger}</div><div class="sc-sub">${nd} sin dato este periodo</div></div>`;
 }
 
@@ -399,9 +430,9 @@ function fmtVal(k) {
   return String(k._val)+u;
 }
 
-function kpiRows(kpis) {
+function kpiRows(kpis, projKey) {
   return kpis.map(k=>`
-    <div class="kpi-row" title="${k.obs||''}">
+    <div class="kpi-row" title="${k.obs||''}" onclick="openModal('${k.num}','${projKey||''}')" style="cursor:pointer;">
       <div class="${dotC(k._st)}"></div>
       <div class="kpi-name"><span class="kpi-num">#${k.num}</span>${k.name}</div>
       <div class="kpi-val">${fmtVal(k)}</div>
@@ -412,7 +443,7 @@ function kpiRows(kpis) {
     </div>`).join("");
 }
 
-function cardHTML(label, kpis, id, isGlobal) {
+function cardHTML(label, kpis, id, isGlobal, projKey) {
   const as=areaStatus(kpis), okC=kpis.filter(k=>k._st==="ok").length;
   const sid="c_"+id.replace(/[^a-z0-9]/gi,"_");
   const gc=isGlobal?" global-card":"", gb=isGlobal?'<span class="badge badge-info">Global</span>':"";
@@ -422,7 +453,7 @@ function cardHTML(label, kpis, id, isGlobal) {
       <div class="card-meta">${okC}/${kpis.length} ok</div>
     </div>
     <div class="kpi-head"><div></div><div>Indicador</div><div style="text-align:right">Valor</div><div></div><div style="text-align:right">Meta</div><div></div><div>Periodicidad</div></div>
-    <div class="kpi-table">${kpiRows(kpis)}</div>
+    <div class="kpi-table">${kpiRows(kpis, projKey||currentProj)}</div>
   </div>`;
 }
 
@@ -510,7 +541,7 @@ function renderArea(mes) {
   const projCards=[], allKpis=[];
   Object.keys(PROJS).forEach(p=>{
     const inds=getIndicadoresProyecto(p).filter(ind=>ind.area===area);
-    if(inds.length>0){ const kpis=inds.map(ind=>buildKpi(ind,mes)); allKpis.push(...kpis); projCards.push(cardHTML(PROJS[p],kpis,area+"_"+p,false)); }
+    if(inds.length>0){ const kpis=inds.map(ind=>buildKpi(ind,mes)); allKpis.push(...kpis); projCards.push(cardHTML(PROJS[p],kpis,area+"_"+p,false,p)); }
   });
   const globInds=getIndicadoresGlobal().filter(ind=>ind.area===area);
   const globKpis=globInds.map(ind=>buildKpi(ind,mes)); allKpis.push(...globKpis);
@@ -525,6 +556,163 @@ function renderArea(mes) {
 }
 
 function tog(id) { document.getElementById(id).classList.toggle("collapsed"); }
+
+// ── MODAL DE DETALLE DE INDICADOR ─────────────────────────────────
+function findIndicadorEnProyectos(num) {
+  // Busca el indicador en todos los proyectos reales (no GMIN/GCIV)
+  const resultados = {};
+  Object.keys(PROJS).forEach(p => {
+    if (p==="GMIN"||p==="GCIV") return;
+    const inds = getIndicadoresProyecto(p);
+    const found = inds.find(i => i.id === num);
+    if (found) resultados[p] = found;
+  });
+  const globInd = getIndicadoresGlobal().find(i => i.id === num);
+  return { porProyecto: resultados, global: globInd };
+}
+
+function colorFor(idx) {
+  const palette = ["#4f8ef7","#a78bfa","#34d399","#f59e0b","#f87171","#22d3ee","#fb923c","#84cc16","#ec4899"];
+  return palette[idx % palette.length];
+}
+
+function buildLineChart(series) {
+  // series: [{label, color, valores: {Ene:.., Feb:..}}]
+  const W=600, H=140, padL=34, padR=10, padT=10, padB=22;
+  const innerW = W-padL-padR, innerH = H-padT-padB;
+
+  let allVals = [];
+  series.forEach(s => MESES_ORD.forEach(m => { const v=s.valores[m]; if(v!==null&&v!==undefined&&!isNaN(v)) allVals.push(v); }));
+  if (allVals.length===0) {
+    return `<svg class="chart-svg" viewBox="0 0 ${W} ${H}"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="var(--text3)" font-size="11">Sin datos suficientes para graficar</text></svg>`;
+  }
+  let min = Math.min(...allVals), max = Math.max(...allVals);
+  if (min===max) { min -= 1; max += 1; }
+  const pad = (max-min)*0.12;
+  min -= pad; max += pad;
+
+  const x = i => padL + (i/(MESES_ORD.length-1))*innerW;
+  const y = v => padT + innerH - ((v-min)/(max-min))*innerH;
+
+  let svg = `<svg class="chart-svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;
+  // grid lines
+  for (let gy=0; gy<=2; gy++) {
+    const yy = padT + (gy/2)*innerH;
+    svg += `<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="var(--border)" stroke-width="1"/>`;
+  }
+  // x labels
+  MESES_ORD.forEach((m,i) => {
+    if (i%2===0) svg += `<text x="${x(i)}" y="${H-6}" text-anchor="middle" fill="var(--text3)" font-size="8" font-family="var(--mono)">${m}</text>`;
+  });
+  // y labels
+  svg += `<text x="2" y="${y(max)+3}" fill="var(--text3)" font-size="8" font-family="var(--mono)">${Math.round(max)}</text>`;
+  svg += `<text x="2" y="${y(min)+3}" fill="var(--text3)" font-size="8" font-family="var(--mono)">${Math.round(min)}</text>`;
+
+  series.forEach(s => {
+    const pts = MESES_ORD.map((m,i) => {
+      const v = s.valores[m];
+      return (v===null||v===undefined||isNaN(v)) ? null : [x(i), y(v)];
+    });
+    const validPts = pts.filter(p=>p!==null);
+    if (validPts.length===0) return;
+    const path = pts.map((p,i) => p===null ? null : `${i===0||pts[i-1]===null?'M':'L'}${p[0]},${p[1]}`).filter(Boolean).join(' ');
+    svg += `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
+    pts.forEach(p => { if(p) svg += `<circle cx="${p[0]}" cy="${p[1]}" r="2.5" fill="${s.color}"/>`; });
+  });
+
+  svg += `</svg>`;
+  return svg;
+}
+
+function promedioAnual(valores) {
+  const vals = MESES_ORD.map(m=>valores[m]).filter(v=>v!==null&&v!==undefined&&!isNaN(v));
+  if (vals.length===0) return null;
+  return Math.round((vals.reduce((a,b)=>a+b,0)/vals.length)*10)/10;
+}
+
+function openModal(num, projKeyActual) {
+  const { porProyecto, global: globInd } = findIndicadorEnProyectos(num);
+  const mes = document.getElementById("sel-period").value;
+
+  // Determinar indicador base para nombre/meta/unidad
+  const base = globInd || Object.values(porProyecto)[0];
+  if (!base) return;
+
+  document.getElementById("modal-num").textContent = "Indicador #"+num+" · "+(base.area||"");
+  document.getElementById("modal-title").textContent = base.indicador;
+
+  const esGlobal = !!globInd && Object.keys(porProyecto).length===0;
+  const valActualKpi = buildKpi(base, mes);
+
+  // Construir series para gráfica
+  const series = [];
+  if (esGlobal) {
+    series.push({ label:"EMD (Global)", color: colorFor(0), valores: base.valores||{} });
+  } else {
+    const projKeys = Object.keys(porProyecto);
+    const destacar = projKeyActual && porProyecto[projKeyActual] ? projKeyActual : projKeys[0];
+    // Línea destacada: proyecto actual
+    if (destacar && porProyecto[destacar]) {
+      series.push({ label: PROJS[destacar]||destacar, color: colorFor(0), valores: porProyecto[destacar].valores||{} });
+    }
+    // Promedio global de todos los proyectos donde aplica
+    const promedioValores = {};
+    MESES_ORD.forEach(m => {
+      const vals = projKeys.map(p => porProyecto[p].valores?.[m]).filter(v=>v!==null&&v!==undefined&&!isNaN(v));
+      promedioValores[m] = vals.length>0 ? Math.round((vals.reduce((a,b)=>a+b,0)/vals.length)*10)/10 : null;
+    });
+    series.push({ label:"Promedio todos los proyectos", color: colorFor(1), valores: promedioValores });
+  }
+
+  const chartSvg = buildLineChart(series);
+  const legendHtml = series.map((s,i)=>`<div class="chart-leg-item"><div class="chart-leg-dot" style="background:${s.color}"></div>${s.label}</div>`).join("");
+
+  const promAnualPrincipal = promedioAnual(series[0].valores);
+
+  let statsHtml = `
+    <div class="modal-stats">
+      <div class="mstat"><div class="mstat-label">Valor actual</div><div class="mstat-val">${fmtVal(valActualKpi)}</div></div>
+      <div class="mstat"><div class="mstat-label">Meta</div><div class="mstat-val">${base.objetivo}</div></div>
+      <div class="mstat"><div class="mstat-label">Promedio anual</div><div class="mstat-val">${promAnualPrincipal!==null?promAnualPrincipal:"—"}</div></div>
+    </div>`;
+
+  let compareHtml = "";
+  if (!esGlobal && Object.keys(porProyecto).length>1) {
+    const rows = Object.keys(porProyecto).map(p => {
+      const k = buildKpi(porProyecto[p], mes);
+      return `<div class="proj-row">
+        <div class="proj-row-name">${PROJS[p]||p}</div>
+        <div class="${dotC(k._st)}" style="justify-self:center;"></div>
+        <div class="proj-row-val">${fmtVal(k)}</div>
+      </div>`;
+    }).join("");
+    compareHtml = `
+      <div class="modal-section-title">Comparativo por proyecto — ${MESES_LABEL[mes]||mes}</div>
+      <div class="proj-compare">${rows}</div>`;
+  }
+
+  const obsHtml = base.observaciones ? `<div class="modal-obs">📝 ${base.observaciones}</div>` : "";
+
+  document.getElementById("modal-body").innerHTML = `
+    ${statsHtml}
+    <div class="modal-section-title">Tendencia mensual 2026</div>
+    <div class="chart-wrap">
+      ${chartSvg}
+      <div class="chart-legend">${legendHtml}</div>
+    </div>
+    ${compareHtml}
+    ${obsHtml}
+  `;
+
+  document.getElementById("modal-overlay").classList.add("open");
+}
+
+function closeModal() {
+  document.getElementById("modal-overlay").classList.remove("open");
+}
+
+document.addEventListener("keydown", e => { if(e.key==="Escape") closeModal(); });
+
 
 // ── CARGA JSON ────────────────────────────────────────────────────
 function mostrarError(msg) {
