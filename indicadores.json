@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-08",
+  "generado": "2026-07-03",
   "proyectos": {
     "PCM": {
       "nombre": "PC Mina",
@@ -447,8 +447,8 @@
             "Ene": 0,
             "Feb": 0,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 0,
+            "May": 0,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -760,7 +760,7 @@
             "Feb": 96.25,
             "Mar": 100,
             "Abr": 97,
-            "May": null,
+            "May": 96,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -797,7 +797,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -821,7 +821,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -845,7 +845,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -869,11 +869,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -1340,8 +1340,8 @@
             "Ene": 0,
             "Feb": 0,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 0,
+            "May": 0,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -1653,7 +1653,7 @@
             "Feb": null,
             "Mar": 91,
             "Abr": 91,
-            "May": null,
+            "May": 91,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -1690,7 +1690,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -1714,7 +1714,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -1738,7 +1738,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -1762,11 +1762,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -2231,10 +2231,10 @@
           "unidad": "",
           "valores": {
             "Ene": 1,
-            "Feb": 0,
+            "Feb": 1,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 1,
+            "May": 1,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -2307,7 +2307,7 @@
             "Mar": null,
             "Abr": null,
             "May": null,
-            "Jun": null,
+            "Jun": 1,
             "Jul": null,
             "Ago": null,
             "Sep": null,
@@ -2545,8 +2545,8 @@
             "Ene": null,
             "Feb": 90,
             "Mar": 88,
-            "Abr": null,
-            "May": null,
+            "Abr": 88.67,
+            "May": 91,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -2583,7 +2583,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -2607,7 +2607,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -2631,7 +2631,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -2655,11 +2655,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3126,8 +3126,8 @@
             "Ene": 0,
             "Feb": 0,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 0,
+            "May": 0,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -3439,7 +3439,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 81,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -3476,7 +3476,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -3500,7 +3500,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -3524,7 +3524,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -3548,11 +3548,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -3948,7 +3948,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 60,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -4019,8 +4019,8 @@
             "Ene": 0,
             "Feb": 0,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 0,
+            "May": 0,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -4369,7 +4369,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -4393,7 +4393,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -4417,7 +4417,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -4441,11 +4441,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -4841,7 +4841,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 60,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -4912,8 +4912,8 @@
             "Ene": 0,
             "Feb": 0,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 0,
+            "May": 0,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -5262,7 +5262,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -5286,7 +5286,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -5310,7 +5310,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -5334,11 +5334,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -5734,7 +5734,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 45,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -5805,8 +5805,8 @@
             "Ene": 0,
             "Feb": 0,
             "Mar": 0,
-            "Abr": null,
-            "May": null,
+            "Abr": 0,
+            "May": 0,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -6155,7 +6155,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -6179,7 +6179,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -6203,7 +6203,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -6227,11 +6227,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -6603,7 +6603,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 70,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -6928,7 +6928,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -6952,7 +6952,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -7352,7 +7352,7 @@
             "Feb": null,
             "Mar": null,
             "Abr": null,
-            "May": null,
+            "May": 25,
             "Jun": null,
             "Jul": null,
             "Ago": null,
@@ -7773,7 +7773,7 @@
           "observaciones": ""
         },
         {
-          "id": "63",
+          "id": "62",
           "indicador": "Gastos comprobados de viáticos",
           "area": "Administración",
           "objetivo": "90%",
@@ -7797,7 +7797,7 @@
           "observaciones": ""
         },
         {
-          "id": "64",
+          "id": "63",
           "indicador": "Porcentaje de Gastos no deducibles",
           "area": "Administración",
           "objetivo": "≤5%",
@@ -7821,7 +7821,7 @@
           "observaciones": ""
         },
         {
-          "id": "65",
+          "id": "64",
           "indicador": "Gastos indirectos reales vs gastos indirectos proyectados",
           "area": "Administración",
           "objetivo": "≤30%",
@@ -7845,11 +7845,11 @@
           "observaciones": ""
         },
         {
-          "id": "66",
+          "id": "65",
           "indicador": "Tiempos de cobranza entre realización del trabajo y el pago de estimación",
           "area": "Administración",
           "objetivo": "30 días",
-          "sla": "Trimestral",
+          "sla": "Mensual",
           "unidad": "",
           "valores": {
             "Ene": null,
@@ -7926,7 +7926,7 @@
         "id": "7",
         "indicador": "Tiempo promedio desde OC aprobada hasta entrada en almacén",
         "area": "Compras",
-        "objetivo": "≤6 días",
+        "objetivo": "≤30 días",
         "sla": "Mensual",
         "unidad": "",
         "valores": {
@@ -8196,9 +8196,9 @@
         "valores": {
           "Ene": 0.5384615384615384,
           "Feb": 0.5555555555555556,
-          "Mar": 0.2857142857142857,
-          "Abr": null,
-          "May": null,
+          "Mar": 0.2222222222222222,
+          "Abr": 0.5714285714285714,
+          "May": 0.5454545454545454,
           "Jun": null,
           "Jul": null,
           "Ago": null,
